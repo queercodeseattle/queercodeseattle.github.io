@@ -1,3 +1,7 @@
+html, body {
+  overflow-x:hidden
+} 
+
 .container {
   padding: 10px 0 10px 0;
 }
@@ -8,10 +12,10 @@ body {
 
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   container {
     padding: 0 10px 0 10px;
-  }
+  } */
 
   iframe {
     padding: 0 0 0 0 !important;
@@ -46,7 +50,7 @@ header {
   background-color: #F2F9FC;
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 0px 0;
+  padding: 0 0;
 }
 
 header .container {
@@ -192,8 +196,6 @@ header img {
 
 
 }
-
-
 
 p {
   font-size: 1.2rem;
