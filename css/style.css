@@ -27,7 +27,6 @@ h1 {
 
 h3 {
   color: #000000;
-  text-transform: lowercase;
   font-size: 2rem;
 }
 
@@ -101,6 +100,7 @@ header img {
 .highlight {
     background-color: #fa4768;
     color: #FFF;
+    text-transform: lowercase;
     background-image: linear-gradient(to right, #fa4768 0%, #fa4768 100%);
     padding: 10px 10px;
 }
