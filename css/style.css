@@ -44,7 +44,6 @@ h2 {
 
 header {
   background-color: #F2F9FC;
-  /* background-image: url("../img/rainbow.png"); */
   background-position: center center;
   background-repeat: no-repeat;
   padding: 0px 0;
@@ -100,7 +99,7 @@ header img {
 .highlight {
     background-color: #fa4768;
     color: #FFF;
-    text-transform: lowercase;
+    text-transform: lower
     background-image: linear-gradient(to right, #fa4768 0%, #fa4768 100%);
     padding: 10px 10px;
 }
@@ -184,6 +183,14 @@ header img {
   .section {
     padding: 20px 0 0 0;
   }
+}
+
+@media (max-width: 576px) {
+  .section {
+    padding: 20px 10px 0 10px;
+  }
+
+
 }
 
 
