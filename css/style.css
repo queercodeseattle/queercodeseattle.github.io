@@ -172,6 +172,7 @@ header img {
 @media (min-width: 768px) {
   .third-section img {
     margin-top: 0;
+    margin-bottom: 10px;
   }
 }
 
