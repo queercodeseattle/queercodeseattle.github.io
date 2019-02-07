@@ -5,7 +5,7 @@
 body {
   color: #000000;
   font-family: 'Inconsolata', monospace;
-  
+
 }
 
 @media (max-width: 576px) {
@@ -58,6 +58,7 @@ header .container {
 header img {
   width: 75%;
 }
+
 
 @media (min-width: 576px) {
   header {
@@ -160,8 +161,12 @@ header img {
   padding-bottom: 20px;
 }
 
+.third-section h4 {
+  padding-bottom: 20px;
+}
+
 .third-section li {
-  font-size: 1.2rem;  
+  font-size: 1.2rem;
 }
 
 @media (min-width: 768px) {
@@ -185,4 +190,6 @@ header img {
 p {
   font-size: 1.2rem;
   padding: 5px 0 5px 0;
+  text-align: justify;
+  text-justify: inter-word;
 }
